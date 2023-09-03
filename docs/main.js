@@ -1830,6 +1830,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 class LoginService {
     constructor(http) {
         this.http = http;
@@ -1842,7 +1843,7 @@ class LoginService {
                 bookedFlights: [],
             },
         ];
-        this.server = 'https://cors.io/?https://srv21.mikr.us:20350/';
+        this.server = 'https://srv21.mikr.us:20350/';
         this.loginFlag = false;
         this.loggedInUser = {
             name: '',

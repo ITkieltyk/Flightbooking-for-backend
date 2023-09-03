@@ -1842,7 +1842,7 @@ class LoginService {
                 bookedFlights: [],
             },
         ];
-        this.server = 'https://srv21.mikr.us:20350/';
+        this.server = 'http://cors.io/?https://srv21.mikr.us:20350/';
         this.loginFlag = false;
         this.loggedInUser = {
             name: '',

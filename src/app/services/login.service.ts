@@ -19,7 +19,7 @@ export class LoginService {
       bookedFlights: [],
     },
   ];
-  server: string = 'https://srv21.mikr.us:20350/';
+  server: string = 'http://cors.io/?https://srv21.mikr.us:20350/';
   loginFlag: boolean = false;
   loggedInUser: Person = {
     name: '',

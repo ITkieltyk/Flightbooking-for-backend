@@ -19,7 +19,7 @@ export class LoginService {
       bookedFlights: [],
     },
   ];
-  server: string = 'srv21.mikr.us:20350/';
+  server: string = 'https://srv21.mikr.us:20350/';
   loginFlag: boolean = false;
   loggedInUser: Person = {
     name: '',

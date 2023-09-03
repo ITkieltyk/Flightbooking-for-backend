@@ -19,7 +19,7 @@ export class LoginService {
       bookedFlights: [],
     },
   ];
-  server: string = 'https://flightbookingbk.eu-4.evennode.com:4000/';
+  server: string = 'srv21.mikr.us:20350/';
   loginFlag: boolean = false;
   loggedInUser: Person = {
     name: '',

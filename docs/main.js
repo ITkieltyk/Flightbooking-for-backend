@@ -1842,7 +1842,7 @@ class LoginService {
                 bookedFlights: [],
             },
         ];
-        this.server = 'https://flightbookingbk.eu-4.evennode.com:4000/';
+        this.server = 'srv21.mikr.us:20350/';
         this.loginFlag = false;
         this.loggedInUser = {
             name: '',

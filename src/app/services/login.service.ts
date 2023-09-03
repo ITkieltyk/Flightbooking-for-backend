@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Person } from '../interfaces/person';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaderResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { HttpParams } from '@angular/common/http';
 import { DBUser } from '../interfaces/dbuser';
@@ -19,8 +19,9 @@ export class LoginService {
       bookedFlights: [],
     },
   ];
-  server: string = 'https://cors.io/?https://srv21.mikr.us:20350/';
+  server: string = 'https://srv21.mikr.us:20350/';
   loginFlag: boolean = false;
+
   loggedInUser: Person = {
     name: '',
     surname: '',
